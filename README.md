@@ -15,6 +15,6 @@ A página em desenvolvimento pode ser acessada em:
 ## Configuração
 ## Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/95362445?v=4" width=115><br><sub>Leonardo Duarte</sub>](https://github.com/leo-md) |  [<img src="https://avatars.githubusercontent.com/u/29008039?v=4" width=115><br><sub>Maicon Bornhofen</sub>](https://github.com/MaiconBornhofen) | [<img src="https://avatars.githubusercontent.com/u/95362445?v=4" width=115><br><sub>Leonardo Duarte</sub>](https://github.com/leo-md) |
+| [<img src="https://avatars.githubusercontent.com/u/95362445?v=4" width=115><br><sub>Leonardo Duarte</sub>](https://github.com/leo-md) |  [<img src="https://avatars.githubusercontent.com/u/29008039?v=4" width=115><br><sub>Maicon Bornhofen</sub>](https://github.com/MaiconBornhofen) | [<img src="https://avatars.githubusercontent.com/u/108039856?v=4" width=115><br><sub>Daniel Victor</sub>](https://github.com/DanielVictor01) |
 | :---: | :---: | :---: |
 

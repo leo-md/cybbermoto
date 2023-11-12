@@ -109,3 +109,4 @@ function editarClientes($connect, $id) {
     }
 }
 
+//Dinâmica de LOGIN

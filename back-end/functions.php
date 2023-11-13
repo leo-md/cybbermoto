@@ -110,3 +110,34 @@ function editarClientes($connect, $id) {
 }
 
 //Dinâmica de LOGIN
+
+function login($connect){
+    if (isset($_POST['acessar']) AND !empty($_POST['email']) AND !empty($_POST['senha'])) {
+
+        $email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
+        $senha = sha1($_POST['senha']);
+        $query = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha' ";
+        $executar = mysqli_query($connect, $query);
+        $return = mysqli_fetch_assoc($executar);
+
+        if (!empty($return['email'])) {
+            //echo $return['email'];
+            session_start();
+            $_SESSION['nome'] = $return['nome'];
+            $_SESSION['id'] = $return['id'];
+            $_SESSION['ativa'] = TRUE;
+            header("location: home.php");
+
+        }else{
+            echo "Usuário ou senha inválidos!";
+        }
+    }
+}
+
+
+function logout(){
+    session_start();
+    session_unset();
+    session_destroy();
+    header("Location: login.php");
+}

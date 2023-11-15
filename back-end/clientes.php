@@ -117,11 +117,7 @@ $clientes = buscar($connect, $tabela, 1, $order);
         </div>
         <?php endforeach ?>    
     </div>
-        
-        
     </main>
-    <?php include "layouts/footer.php"?>
-    
     <script src="assets/bootstrap.min.js"></script>
 </body>
 

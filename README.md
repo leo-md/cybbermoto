@@ -35,6 +35,23 @@ Certifique-se de ter o XAMPP e o MySQL Workbench instalados antes de prosseguir.
 2. Conecte-se ao servidor MySQL local.
 3. Execute o script SQL fornecido no arquivo `script.sql` na raiz do projeto. Este script cria as tabelas necessárias e insere dados iniciais.
 
+### Download e Execução do Projeto
+
+1. Clone o repositório para a pasta 'htdocs/cybermoto' do seu XAMPP.
+2. Acesse o projeto no navegador:
+  http://localhost/cybermoto.
+  
+    Certifique-se de ajustar o caminho conforme necessário.
+
+3. Atenção para as credenciais de acesso padrão para a área logada:
+
+   Login: mestre@cybermoto.com
+
+   Senha: @123
+
+
+
+   
 
 ## Autores
 

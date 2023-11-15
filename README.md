@@ -37,7 +37,7 @@ Certifique-se de ter o XAMPP e o MySQL Workbench instalados antes de prosseguir.
 
 ### Download e Execução do Projeto
 
-1. Clone o repositório para a pasta 'htdocs/cybermoto' do seu XAMPP.
+1. Baixe o ZIP ou clone o repositório para a pasta 'htdocs/cybermoto' do seu XAMPP.
 2. Acesse o projeto no navegador:
   http://localhost/cybermoto.
   

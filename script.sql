@@ -26,3 +26,6 @@ CREATE TABLE usuarios (
 
 INSERT INTO usuarios (nome, nivel, email, senha)
 VALUES ('Mestre', 3, 'mestre@cybermoto.com', SHA1('@123'));
+
+GRANT ALL PRIVILEGES ON cybermoto.* TO 'root'@'localhost';
+     FLUSH PRIVILEGES;                 -- Garante as credenciais de acesso do usuário root ao cybermoto

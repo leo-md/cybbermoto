@@ -12,7 +12,30 @@ A página em desenvolvimento pode ser acessada em:
 
 
 ## Requisitos
+
+Certifique-se de ter o XAMPP e o MySQL Workbench instalados antes de prosseguir.
+
+- [XAMPP](https://www.apachefriends.org/index.html)
+- [MySQL Workbench](https://www.mysql.com/products/workbench/)
+
 ## Configuração
+
+### Instalação do XAMPP
+
+1. Baixe e instale o XAMPP a partir do [site oficial](https://www.apachefriends.org/index.html).
+2. Inicie o XAMPP e certifique-se de que os módulos Apache e MySQL estão ativados.
+
+### Instalação do MySQL Workbench
+
+1. Baixe e instale o MySQL Workbench a partir do [site oficial](https://www.mysql.com/products/workbench/).
+
+### Configuração do Banco de Dados
+
+1. Abra o MySQL Workbench.
+2. Conecte-se ao servidor MySQL local.
+3. Execute o script SQL fornecido no arquivo `script.sql` na raiz do projeto. Este script cria as tabelas necessárias e insere dados iniciais.
+
+
 ## Autores
 
 | [<img src="https://avatars.githubusercontent.com/u/95362445?v=4" width=115><br><sub>Leonardo Duarte</sub>](https://github.com/leo-md) |  [<img src="https://avatars.githubusercontent.com/u/29008039?v=4" width=115><br><sub>Maicon Bornhofen</sub>](https://github.com/MaiconBornhofen) | [<img src="https://avatars.githubusercontent.com/u/108039856?v=4" width=115><br><sub>Daniel Victor</sub>](https://github.com/DanielVictor01) | [<img src="https://avatars.githubusercontent.com/u/90516707?v=4" width=115><br><sub>Thiago Ghisleri</sub>](https://github.com/ThiGhisleri) | [<img src="https://avatars.githubusercontent.com/u/67715840?v=4" width=115><br><sub>Octávio Silveira</sub>](https://github.com/scandlone) | [<img src="https://avatars.githubusercontent.com/u/120426665?v=4" width=115><br><sub>Donavan Machado</sub>](https://github.com/dodsingmachado8) |

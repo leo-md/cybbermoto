@@ -49,9 +49,14 @@ Certifique-se de ter o XAMPP e o MySQL Workbench instalados antes de prosseguir.
 
    Senha: @123
 
-
-
-   
+### Grupo 43
+### Membros
+Daniel Victor De Macedo Melo
+Donavan Machado
+Leonardo Machado Duarte
+Maicon Guilherme Bornhofen
+Octavio Gomes Da Silveira Junior
+Thiago Menezes Ghisleri
 
 ## Autores
 

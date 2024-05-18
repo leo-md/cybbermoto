@@ -23,7 +23,7 @@ $clientes = buscar($connect, $tabela, 1, $order);
         <div class="topo">
             <div>
                 <?php
-                echo "<h1>Olá " . $usuario . ". Você está no página de gerenciamento de clientes.";
+                  echo "<h1>Olá " . $usuario . ". Você está no página de gerenciamento de clientes. <br>";
                 ?>
             </div>
         </div>     
@@ -74,17 +74,25 @@ $clientes = buscar($connect, $tabela, 1, $order);
           </fieldset>
       </form>
     </div>
-
+    
     <div class="accordion accordion-flush" id="accordionFlushExample">
     <?php foreach ($clientes as $container):?>
+      
       <div class="accordion-item">
             <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse<?php echo $container['id']?>" aria-expanded="false" aria-controls="flush-collapse<?php echo $container['id']?>">
-              <?php echo $container['nome']?>
+              <?php echo $container['nome'];
+              ?>
             </button>
             </h2>
             <div id="flush-collapse<?php echo $container['id']?>" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body"><ol class="list-group list-group-numbered">
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Veículo</div>
+      <?php buscarVeiculo($connect, 'veiculo', $container['id']);?>
+    </div>
+  </li>
   <li class="list-group-item d-flex justify-content-between align-items-start">
     <div class="ms-2 me-auto">
       <div class="fw-bold">CPF/CNPJ</div>
@@ -117,7 +125,10 @@ $clientes = buscar($connect, $tabela, 1, $order);
         </div>
         <?php endforeach ?>    
     </div>
+        
+        
     </main>
+    
     <script src="assets/bootstrap.min.js"></script>
 </body>
 
